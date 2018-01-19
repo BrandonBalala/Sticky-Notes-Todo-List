@@ -1,0 +1,38 @@
+textarea {
+    resize: none;
+}
+
+.stickyNote{
+	border: 1px #e4e4e4 solid;
+	width: 225px;
+	height: 175px;
+  	padding: 10px;
+  	border-radius: 3px;
+  	box-shadow: 0 0 5px #ccc;
+  	background-image: url("./images/paper.jpg");
+  	cursor:move;
+}
+
+.noteContent{
+	height: 125px;
+	overflow: auto;
+	word-wrap: break-word;
+  	overflow-y:auto;
+  	-moz-user-select: none;
+}
+
+.deleteButton{
+	float: right;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 1;
+	color: #000;
+	text-shadow: 0px 1px 0px #FFF;
+	opacity: 0.2;
+	text-decoration: none !important;
+	 cursor: pointer;
+	-moz-user-select: none;
+}
+
+
+
